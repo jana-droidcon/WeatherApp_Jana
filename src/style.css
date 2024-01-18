@@ -1,77 +1,19 @@
 body {
-  background: #f9f7fd;
+  background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
 }
 
 a {
   color: #885df1;
 }
-.roboto-thin-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
 
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.roboto-light-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-regular-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-medium-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.roboto-bold-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.roboto-black-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+.weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
 }
 
 header {
@@ -79,14 +21,6 @@ header {
   padding: 0 0 30px 0;
 }
 
-.weather-app {
-  background: white;
-  max-width: 600px;
-  margin: 45px 0px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 16px;
-  padding: 30px;
-}
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
@@ -105,9 +39,11 @@ header {
   border-radius: 6px;
   color: white;
 }
+
 main {
   padding: 30px 0;
 }
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
@@ -118,12 +54,14 @@ main {
   font-size: 38px;
   line-height: 48px;
 }
+
 .weather-app-details {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
 }
+
 .weather-app-details strong {
   color: #f65282;
 }
