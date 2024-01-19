@@ -55,6 +55,9 @@ main {
   line-height: 48px;
 }
 
+div {
+  display: block;
+}
 .weather-app-details {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
