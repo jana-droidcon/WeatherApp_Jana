@@ -65,7 +65,6 @@ function getForecast(city) {
   axios.get(apiUrl).then(displayForecast);
 }
 function displayForecast(response) {
-  console.log(response.data);
   let days = ["Fri", "Sat", "Sun", "Mon", "Tue"];
   let forecastHtml = "";
 
